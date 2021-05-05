@@ -10,7 +10,7 @@ function extendBoardPage() {
       if (e.getAttribute('data-original-id') == undefined) {
         e.setAttribute('data-original-id', e.innerText);
       }
-    });
+    });aa
 
     // width to fit-content
     const theads = document.querySelectorAll('table.table tr th');
